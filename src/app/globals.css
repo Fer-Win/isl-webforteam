@@ -16,6 +16,13 @@
   }
 }
 
+@layer components{
+
+  .link{
+    @apply text-white
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

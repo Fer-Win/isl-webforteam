@@ -1,11 +1,11 @@
 import Footer from "@/components/Footer"
 import NavBar from "../../components/NavBar"
 
-const TeamPage = () => {
+const News = () => {
   return (
     <main><NavBar></NavBar>
-    <div>This is the Team Page</div>
+    <div>This is the News Page</div>
     <Footer></Footer></main>
   )
 }
-export default TeamPage
+export default News
