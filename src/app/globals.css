@@ -19,16 +19,78 @@
 @layer components{
 
   .link{
-    @apply text-white
+    @apply text-black hover:opacity-80 transition-all duration-100 ease-in;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+
+h1,
+h2,
+h3 {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
+
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--background);
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+
+section {
+  padding-top: 85vh;
+  padding-bottom: 85vh;
+  position: relative;
+}
+
+
+
+
+.parallax {
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(251, 255, 0);
+  padding: 5px 0px 5px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+ 
+}
+
+.parallax .scroller {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 64px;
+  display: flex;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+
+.parallax span {
+  display: block;
+  margin-right: 30px;
+}
+
