@@ -35,9 +35,7 @@ h3 {
 
 
 ::-webkit-scrollbar {
-  height: 5px;
-  width: 5px;
-  background: var(--background);
+  display:none;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -48,10 +46,10 @@ h3 {
 ::-webkit-scrollbar-corner {
   background: var(--background);
 }
-
+/* 
 html {
   scroll-snap-type: y mandatory;
-}
+} */
 
 
 section {
@@ -94,3 +92,81 @@ section {
   margin-right: 30px;
 }
 
+
+/* .slide-in{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0f0f0f;
+    transform-origin: bottom;
+}
+.slide-out{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: top;
+} */
+
+
+.spinner-wrapper{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: black;
+  z-index: 10;
+}
+
+.spinner{
+  position: absolute; 
+  height: 100px;
+  width: 100px;
+  margin: 0px auto;
+  -webkit-animation: rotation 1s infinite linear;
+  -moz-animation: rotation 1s infinite linear;
+  -o-animation: rotation 1s infinite linear;
+  animation: rotation 1s infinite linear;
+  border: 6px solid lightseagreen;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-moz-keyframes rotation {
+  from {
+    -moz-transform:  rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-o-keyframes rotation {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
