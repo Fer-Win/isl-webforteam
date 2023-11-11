@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer"
 import NavBar from "../../components/NavBar"
-import PlayerCard from "@/components/PlayerCard"
 import PlayerSection from "@/components/PlayerSection"
+import CoachSection from "@/components/CoachSection"
 
 const TeamPage = () => {
   
@@ -10,6 +10,7 @@ const TeamPage = () => {
       <NavBar></NavBar>
     <div>This is the Team Page</div>
     <PlayerSection></PlayerSection>
+    <CoachSection></CoachSection>
     <Footer></Footer>
     </main>
   )
