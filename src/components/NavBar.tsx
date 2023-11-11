@@ -13,7 +13,7 @@ const NavBar = () => {
 
      
       <div className="  h-28 flex flex-row justify-between items-center sm:px-24 py-2 px-2 bg-slate-100">
-        <Image src="/icon.svg" alt="KFC Logo" height={130} width={130} className="w-20 sm:w-28"/>
+        <Image src="/kbfc_logo.svg" alt="KFC Logo" height={130} width={130} className="w-20 sm:w-28"/>
         <NavList></NavList>
       </div>
    

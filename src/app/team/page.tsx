@@ -13,7 +13,7 @@ const TeamPage = () => {
     <main>
       <NavBar></NavBar>
     <div>This is the Team Page</div>
-    <PlayerCard picture="/icon.svg" name="Ferwin Lopez" stats={playerStats}  ></PlayerCard>
+    <PlayerCard picture="/players/Arbaz.png" name="Ferwin Lopez" stats={playerStats}  ></PlayerCard>
     <Footer></Footer>
     </main>
   )
