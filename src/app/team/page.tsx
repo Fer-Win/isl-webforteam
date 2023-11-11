@@ -1,19 +1,15 @@
 import Footer from "@/components/Footer"
 import NavBar from "../../components/NavBar"
 import PlayerCard from "@/components/PlayerCard"
+import PlayerSection from "@/components/PlayerSection"
 
 const TeamPage = () => {
-  const playerStats ={
-    goals:9,
-    assists: 2,
-    yellowCards: 1,
-    redCards: 2,
-  }
+  
   return (
     <main>
       <NavBar></NavBar>
     <div>This is the Team Page</div>
-    <PlayerCard picture="/players/Arbaz.png" name="Ferwin Lopez" stats={playerStats}  ></PlayerCard>
+    <PlayerSection></PlayerSection>
     <Footer></Footer>
     </main>
   )

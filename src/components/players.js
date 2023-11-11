@@ -1,218 +1,256 @@
 export const data = [
   {
     id:1,
-    image:'/Peprah-S10.png',
+    image:'/players/Peprah-S10.png',
     name:'KWAME PEPRAH',
+   stats:{
     position:'Forward',
     nationality:'Ghana',
     age:22,
     height : "183 cm"
+   }
   },
   {
     id:2,
-    image:'/Dimitrios.png',
+    image:'/players/Dimitrios.png',
     name:'DIMITRIOS DIAMANTAKOS',
+   stats:{
     position:'Forward',
     nationality:'Greece',
     age:30,
     height : "182 cm"
+   }
   },
   {
     id:3,
-    image:'/Daisuke.png',
+    image:'/players/Daisuke.png',
     name:'DAISUKE SAKAI',
-    position:'Forward',
+    stats:{
+      position:'Forward',
     nationality:'Japan',
     age:26,
     height : "167 cm"
+    }
   },
   {
     id:4,
-    image:'/Azhar-S10.png',
+    image:'/players/Azhar-S10.png',
     name:'MOHAMMED AZHAR',
-    position:'Midfield',
+    stats:{
+      position:'Midfield',
     nationality:'India',
     age:20,
     height : "173 cm"
+    }
   },
   {
     id:5,
-    image:'/Danish-S10.png',
+    image:'/players/Danish-S10.png',
     name:'DANISH FAROOQ',
-    position:'Midfield',
+    stats:{
+      position:'Midfield',
     nationality:'India',
     age:27,
     height : "185 cm"
+    }
   },
   {
     id:6,
-    image:'/Yoihenba-S10.png',
+    image:'/players/Yoihenba-S10.png',
     name:'YOIHENBA MEITEI',
-    position:'Midfield',
+    stats:{
+      position:'Midfield',
     nationality:'India',
     age:19,
     height : "178 cm"
+    }
   },
   {
     id:7,
-    image:'/Freddy-S10.png',
+    image:'/players/Freddy-S10.png',
     name:'FREDDY LALLAWMAWMA',
-    position:'Midfield',
+    stats:{
+      position:'Midfield',
     nationality:'India',
     age:21,
     height : "172 cm"
+    }
   },
   {
     id:8,
-    image:'/Arbaz.png',
+    image:'/players/Arbaz.png',
     name:'MOHAMMED ARBAZ',
+   stats:{
     position:'Goal Keeper',
     nationality:'India',
     age:20,
     height : "170 cm"
+   }
   },
   {
     id:9,
-    image:'/Lara-S10.png',
+    image:'/players/Lara-S10.png',
     name:'LARA SHARMA',
+   stats:{
     position:'Goal Keeper',
     nationality:'India',
     age:24,
     height : "192 cm"
+   }
   },
   {
     id:10,
-    image:'/Sachin-S10.png',
+    image:'/players/Sachin-S10.png',
     name:'SACHIN SURESH',
+   stats:{
     position:'Goal Keeper',
     nationality:'India',
     age:22,
     height : "183 cm"
+   }
   },
   {
     id:11,
-    image:'/Aimen-S10.png',
+    image:'/players/Aimen-S10.png',
     name:'MOHAMMED AIMEN',
-    position:'Midfield',
+    stats:{
+      position:'Midfield',
     nationality:'India',
     age:20,
     height : "173 cm"
+    }
   },
   {
     id:12,
-    image:'/Ishan-S10.png',
+    image:'/players/Ishan-S10.png',
     name:'ISHAN PANDITA',
-    position:'Forward',
+    stats:{
+      position:'Forward',
     nationality:'India',
     age:25,
     height : "183 cm"
+    }
   },
   {
     id:13,
-    image:'/Bidya-S10.png',
+    image:'/players/Bidya-S10.png',
     name:'BIDYASHAGAR SINGH',
-    position:'Forward',
+    stats:{
+      position:'Forward',
     nationality:'India',
     age:25,
     height : "177 cm"
+    }
   },
   {
     id:14,
-    image:'/Vibin-S10.png',
+    image:'/players/Vibin-S10.png',
     name:'VIBIN MOHANAN',
-    position:'Midfield',
+    stats:{
+      position:'Midfield',
     nationality:'India',
     age:20,
     height : "173 cm"
+    }
   },
   {
     id:15,
-    image:'/Saurav-S10.png',
+    image:'/players/Saurav-S10.png',
     name:'SAURAV MANDAL',
+    stats:{
     position:'Forward',
     nationality:'India',
     age:22,
-    height : "175 cm"
+    height : "175 cm"}
   },
   {
     id:16,
-    image:'/Bryce-S10.png',
+    image:'/players/Bryce-S10.png',
     name:'BRYCE MIRANDA',
+    stats:{
     position:'Forward',
     nationality:'India',
     age:23,
-    height : "175 cm"
+    height : "175 cm"}
   },
   {
     id:17,
-    image:'/Nihal-S10.png',
+    image:'/players/Nihal-S10.png',
     name:'NIHAL SUDHEESH',
+    stats:{
     position:'Forward',
     nationality:'India',
     age:22,
-    height : "172 cm"
+    height : "172 cm"}
   },
   {
     id:18,
-    image:'/Sandeep-S10.png',
+    image:'/players/Sandeep-S10.png',
     name:'SANDEEP SINGH',
+    stats:{
     position:'Defense',
     nationality:'India',
     age:28,
-    height : "168 cm"
+    height : "168 cm"}
   },
   {
     id:19,
-    image:'/Jeaskson-S10.png',
+    image:'/players/Jeaskson-S10.png',
     name:'JEAKSON SINGH',
+    stats:{
     position:'Midfield',
     nationality:'India',
     age:22,
-    height : "186 cm"
+    height : "186 cm"}
   },
   {
     id:20,
-    image:'/Marko-S10.png',
+    image:'/players/Marko-S10.png',
     name:'MARKO LESKOVIC',
+    stats:{
     position:'Defense',
     nationality:'Croatia',
     age:32,
-    height : "188 cm"
+    height : "188 cm"}
   },
   {
     id:21,
-    image:'/Rahul-S10.png',
+    image:'/players/Rahul-S10.png',
     name:'RAHUL KP',
+    stats:{
     position:'Forward',
     nationality:'India',
     age:23,
-    height : "164 cm"
+    height : "164 cm"}
   },
   {
     id:22,
-    image:'/Luna-S10.png',
+    image:'/players/Luna-S10.png',
     name:'ADRIAN LUNA (C)',
+    stats:{
     position:'Midfield',
     nationality:'Uruquay',
     age:31,
-    height : "169 cm"
+    height : "169 cm"}
   },
   {
     id:23,
-    image:'/Hormi-2.png',
+    image:'/players/Hormi-2.png',
     name:'RUIVAH HORMIPAM',
+    stats:{
     position:'Defense',
     nationality:'India',
     age:22,
-    height : "183 cm"
+    height : "183 cm"}
   },
   {
     id:24,
-    image:'/karanjit.png',
+    image:'/players/karanjit.png',
     name:'KARANJIT SINGH',
+    stats:{
     position:'Goal Keeper',
     nationality:'India',
     age:37,
-    height : "181 cm"
+    height : "181 cm"}
   }
 ]
