@@ -7,8 +7,8 @@ const NavList = () => {
   
   return (
     <div >
-         <div className=" hidden md:flex flex-row gap-9 items-center  font-familjen">
-          <Link href="/" passHref className="link">Home</Link>
+         <div className=" hidden md:flex flex-row gap-12 items-center  font-familjen">
+          <Link href="/" passHref className="link ">Home</Link>
         <Link href="./team" passHref className="link">Team</Link>
       
         <Link href="./news" passHref className="link">News</Link>

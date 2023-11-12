@@ -65,8 +65,16 @@ html {
 .parallax-text{
   font-size: smaller;
 }
+.title{
+  color: white;
+
+  margin-left: 110px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
 .link{
   font-size: larger;
+  color:white;
 }
 section {
   padding-top: 85vh;
