@@ -17,7 +17,7 @@ const Footer = () => {
              </div>
               <div className="flex justify-start ">
                 <input type="checkbox" className="checkbox" />
-                <p className="text-white opacity-60 font-extralight pl-2 pt-4 text-sm w-[80%]">I agree to the Privacy Policy and give my permission to process my personal data for the purposes specified in the Pricacy Policy.</p>
+                <p className="text-white opacity-60 font-extralight pl-2 pt-4 text-sm w-[80%]">I agree to the Privacy Policy and give my permission to process my personal data for the purposes specified in the Privacy Policy.</p>
               </div>
               <div className="mt-3 ">
                 <button className="border-white border text-white  hover:bg-white hover:text-[#0a0a0a] mt-5 text-lg px-4 py-2 ">Subscribe</button>
