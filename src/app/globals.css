@@ -31,6 +31,9 @@
   .label{
     @apply mb-[-20px] pl-1 font-mono font-extralight uppercase
   }
+  .input{
+    @apply w-[70%] mt-4 bg-[#0a0a0a] border-b border-b-white outline-none text-white pl-1 pb-2 font-extralight;
+  }
 }
 
 @layer base{
@@ -91,6 +94,9 @@ section {
 }
 main{
   background: #0a0a0a;
+}
+a:hover{
+  opacity: 0.5;
 }
 
 .player-bg{
