@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import {Familjen_Grotesk } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const fam = Familjen_Grotesk({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Kerala Blasters',
@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body >{children}</body>
       {/* <link rel="icon" href="/logo.svg" sizes="64x64" /> */}
     </html>
   )
