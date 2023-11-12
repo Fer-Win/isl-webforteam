@@ -2,7 +2,7 @@ import {data} from "./news"
 
 import Footer from "@/components/Footer";
 import NavBar from "../../components/NavBar";
-import NewsCard from "@/components/NewCard";
+import NewsCard from "@/components/NewsCard";
 
 
 const News = () => {

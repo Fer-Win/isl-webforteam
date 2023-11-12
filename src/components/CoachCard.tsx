@@ -9,16 +9,16 @@ interface CoachCardProps {
 
 const CoachCard: React.FC<CoachCardProps> =({image,name,position,nationality})=>{
   return (
-    <a href="" className='group'>
+    <a href="" className='group font-familjen'>
        <div className='border-2 border-black  w-64 rounded-md '>
-     <div className="image-container bg-blue-700 h-56 overflow-hidden items-center flex justify-center group" >
-       <img src={image} alt={`${name} picture`} className=' mx-0 my-auto group-hover:mb-14' />
+     <div className="image-container bg-white h-56 overflow-hidden items-center flex justify-center group relative" >
+       <img src={image} alt={`${name} picture`} className=' transition-all h-[220px] w-auto duration-500 ease-in-out absolute bottom-0' />
      </div>
-     <div className='flex flex-col px-3 py-2'>
-     <h1 className='text-lg'>{name}</h1>
+     <div className='flex flex-col px-3 py-2 bg-slate-400 '>
+     <h1 className='text-lg text-center'>{name}</h1>
       <ul>
-        <li>Position: {position}</li>
-        <li>Nationality: {nationality}</li>
+        <li className="text-center">{position}</li>
+        {/* <li>Nationality: {nationality}</li> */}
       </ul>
      </div>
     </div>
