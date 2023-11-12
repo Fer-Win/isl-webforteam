@@ -8,8 +8,9 @@ const TeamPage = () => {
   return (
     <main>
       <NavBar></NavBar>
-    <div>This is the Team Page</div>
+    <div className="title">Players</div>
     <PlayerSection></PlayerSection>
+    <div className="title">Coaches</div>
     <CoachSection></CoachSection>
     <Footer></Footer>
     </main>
