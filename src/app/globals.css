@@ -62,7 +62,9 @@ h3 {
 html {
   scroll-snap-type: y mandatory;
 } */
-
+.parallax-text{
+  font-size: smaller;
+}
 .link{
   font-size: larger;
 }

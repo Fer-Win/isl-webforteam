@@ -2,8 +2,9 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-yellow-400 static bottom-0 text-black mt-14 font-familjen">
-      <div className="flex flex-row justify-around items-center py-4">
+    <div className="text-white  static bottom-0 mt-14 flex flex-col justify-center items-center font-familjen">
+      <div className="w-[95%] h-[1px] bg-white text-center"></div>
+      <div className="flex flex-row justify-around items-center py-4 w-full">
         <div className="flex flex-col justify-center items-center">
         <Image src="/kbfc_logo.svg" alt="KBFC Logo" height={130} width={130} />
           <div className="text-sm">Kerala Blasters FC</div>

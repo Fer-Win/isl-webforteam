@@ -23,7 +23,7 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
   const scrollVelocity = useVelocity(scrollY);
   const smoothVelocity = useSpring(scrollVelocity, {
     damping: 50,
-    stiffness: 400
+    stiffness: 500
   });
   const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 5], {
     clamp: false
@@ -44,12 +44,12 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
     baseX.set(baseX.get() + moveBy);
   });
   return (
-    <div className="parallax">
+    <div className="parallax text-[#0a0a0a] ">
       <motion.div className="scroller " style={{ x }}>
-        <span  >{children} </span>
-        <span>{children} </span>
-        <span>{children} </span>
-        <span>{children} </span>
+        <span >{children} </span>
+        <span >{children} </span>
+        <span >{children} </span>
+        <span >{children} </span>
       </motion.div>
     </div>
   );
