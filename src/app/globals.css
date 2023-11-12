@@ -23,6 +23,13 @@
   .link{
     @apply text-black hover:opacity-80 transition-all duration-100 ease-in;
   }
+  .info-section{
+    @apply h-40 text-[55px] border-b-2 px-3 bg-slate-300 font-familjen flex flex-col justify-center ;
+       
+  }
+  .label{
+    @apply mb-[-20px] pl-1 font-mono font-extralight uppercase
+  }
 }
 
 @layer base{
