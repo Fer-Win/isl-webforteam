@@ -1,5 +1,6 @@
 
 interface NewsCardProps {
+  id:number,
   title: string;
   cut: string;
   date: string;
@@ -7,9 +8,9 @@ interface NewsCardProps {
 }
 
 
-const NewsCard: React.FC<NewsCardProps>=({title,cut,date,image})=>{
+const NewsCard: React.FC<NewsCardProps>=({id,title,cut,date,image})=>{
   return (
-    <a href={``} className=" text-white flex justify-center items-center bg-slate-500 py-6 rounded-sm gap-7">
+    <a href={`/news/${id}`} className=" text-white flex justify-center items-center bg-slate-500 py-6 rounded-sm gap-7">
       <div className="w-3/5">
       <h1 className="text-2xl font-bold">{title}</h1>
       <p>{cut}</p>
