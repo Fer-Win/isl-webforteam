@@ -26,12 +26,12 @@ const Footer = () => {
           </div>
           <div className="w-[30%]  h-full px-3  text-white text-lg font-light flex justify-between">
               <div className="flex flex-col h-full justify-center gap-7">
-              <Link href="/" passHref className="linkf">Home</Link>
-              <Link href="./team" passHref className="linkf">Team</Link>
+              <Link href="/" passHref className="linker">Home</Link>
+              <Link href="./team" passHref className="linker">Team</Link>
             
-              <Link href="./news" passHref className="linkf">News</Link>
-              <Link href="./fans" passHref className="linkf">Fans</Link>
-              <Link href="./about" passHref className="linkf">About</Link>
+              <Link href="./news" passHref className="linker">News</Link>
+              <Link href="./fans" passHref className="linker">Fans</Link>
+              <Link href="./about" passHref className="linker">About</Link>
               </div>
               <div >
                   <ul className="flex flex-col pt-8 px-3 gap-7 ">
