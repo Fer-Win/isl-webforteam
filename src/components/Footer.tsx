@@ -35,10 +35,10 @@ const Footer = () => {
               </div>
               <div >
                   <ul className="flex flex-col pt-8 px-3 gap-7 ">
-                    <a href="https://www.facebook.com/keralablasters/" target="_blank">Facebook</a>
-                    <a href="https://www.instagram.com/keralablasters/?hl=en" target="_blank">Instagram</a>
-                    <a href="https://twitter.com/KeralaBlasters" target="_blank">X</a>
-                    <a href="https://www.youtube.com/channel/UCCRfkpYF70QoUffbC5emuyw" target="_blank">Youtube</a>
+                    <a href="https://www.facebook.com/keralablasters/" target="_blank" className="linker">Facebook</a>
+                    <a href="https://www.instagram.com/keralablasters/?hl=en" target="_blank"className="linker">Instagram</a>
+                    <a href="https://twitter.com/KeralaBlasters" target="_blank"className="linker">X</a>
+                    <a href="https://www.youtube.com/channel/UCCRfkpYF70QoUffbC5emuyw" target="_blank"className="linker">Youtube</a>
                   </ul>
               </div>
           </div>
@@ -52,8 +52,8 @@ const Footer = () => {
                     Designed and Developed by <span className="font-familjen text-lg">Ferwin Lopez</span>
                   </div>
                   <div className="flex flex-col">
-                    <a href="https://www.linkedin.com/in/ferwin-lopez/" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/Fer-Win" target="_blank">Github</a>
+                    <a href="https://www.linkedin.com/in/ferwin-lopez/" target="_blank" className="linker">LinkedIn</a>
+                    <a href="https://github.com/Fer-Win" target="_blank" className="linker">Github</a>
                   </div>
          </div>
          <div className="flex justify-between">

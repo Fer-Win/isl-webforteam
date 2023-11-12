@@ -14,7 +14,7 @@ export default function Home() {
       {/* <div className="spinner-wrapper">
       <div className="spinner"></div>
     </div> */}
-      <h2 className='h-96'>This is the Home Page of Kerala Blasters💛⭐💛⭐💛</h2>
+      <img src="/kbfc/main.jpeg" alt="" />
       <ParallaxText baseVelocity={-5} >Kerala Blasters</ParallaxText>
       <ParallaxText baseVelocity={5}>Football Club</ParallaxText>
       <Footer></Footer>

@@ -95,7 +95,7 @@ section {
 main{
   background: #0a0a0a;
 }
-a:hover{
+.linker:hover{
   opacity: 0.5;
 }
 
