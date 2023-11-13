@@ -35,7 +35,7 @@ export default function Home() {
       <NavBar></NavBar>
       
     <div className='w-full h-[500px]  bg-blue-400 my-14'></div>
-    <div className="title text-[60px] font-familjen">Gallery</div>
+    <div className="title text-[30px] sm:text-[60px] sm:ml-8 ml-4 font-familjen">Gallery</div>
       <div className='text-white mb-20 mt-5 flex justify-center '>
       <Swiper
       spaceBetween={20}
@@ -61,6 +61,7 @@ export default function Home() {
       </div>
       <ParallaxText baseVelocity={-5} >Kerala Blasters</ParallaxText>
       <ParallaxText baseVelocity={5}>Football Club</ParallaxText>
+      <div className="title text-[30px] sm:text-[60px] sm:ml-8 ml-4 font-familjen">Our Beliefs</div>
       <Footer></Footer>
     </main>
   )

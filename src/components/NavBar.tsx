@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
 
      
-     <div className="flex flex-col w-full items-center sticky  h-fit">
+     <div className="flex flex-col w-full items-center sticky  h-fit z-[1000]">
        <div className="  h-28 flex w-[90%] flex-row justify-between items-center sm:px-24 py-2 px-2">
        <a href="/"> <Image src="/kbfc_logo.svg" alt="KFC Logo" height={100} width={100} className="w-16 sm:w-24"/></a>
         <NavList></NavList>
