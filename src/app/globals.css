@@ -24,7 +24,7 @@
     @apply text-black hover:opacity-80 transition-all duration-100 ease-in;
   }
   .info-section{
-    @apply h-40 text-[55px] border-b-2 px-3 bg-slate-300 font-familjen flex flex-col justify-center
+    @apply h-40 text-[45px] sm:text-[55px] border-b-2 px-3 bg-slate-300 font-familjen flex flex-col justify-center
             hover:bg-[#0a0a0a] hover:text-white transition-all duration-300 ease-in-out;
        
   }
