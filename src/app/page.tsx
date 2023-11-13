@@ -35,8 +35,8 @@ export default function Home() {
     
       <NavBar></NavBar>
       
-    <div className='w-full h-[500px] font-familjen  bg-blue-400 my-14'>
-      Kerala Blasters FC
+    <div className='w-full sm:h-[500px] font-familjen  sm:my-14'>
+      <img src="/kbfc/Header.png" alt=""  className=' object-contain'/>
     </div>
     <div className="title text-[30px] sm:text-[60px] sm:ml-8 ml-4 font-familjen">Gallery</div>
       <div className='text-white mb-20 mt-5 flex justify-center '>
@@ -81,6 +81,8 @@ export default function Home() {
      </div>
 
        </div>
+       <div className="title text-[30px] sm:text-[60px] sm:ml-8 ml-4 font-familjen mb-[-100px]">For the Fans</div>
+       <a href="/fans" className=''><img src="/kbfc/fans.png" alt=""  className=' object-contain'/></a>
       <div className="title text-[30px] sm:text-[60px] sm:ml-8 ml-4 font-familjen">About Us</div>
       <div className='font-sans mt-1 text-white text-md sm:text-2xl font-light ml-4 sm:ml-8 sm:mt-4'>
         <div >
@@ -92,6 +94,7 @@ export default function Home() {
       <div className='font-sans mt-1 text-white text-md sm:text-2xl font-light ml-4 sm:ml-8 sm:mt-4'>
       <p className='para'><span className="font-light text-[#fff212]">Yellow</span>, our primary colour and the most luminous of all colours in the spectrum, symbolizes determination, optimism and faith It is also a prominent hue connecting various aspects that is core to the state of Kerala. Our skin is representative of our strong passion towards the game of football and also strongly symbolizes our pride to be one with Kerala in reinforcing the state’s legacy. We are and will always be <span className='text-[#fff212] font-roadRage'>#YennumYellow</span></p>
       </div>
+      
       <Footer></Footer>
     </main>
   )
