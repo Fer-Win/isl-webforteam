@@ -10,7 +10,7 @@ interface NewsCardProps {
 
 const NewsCard: React.FC<NewsCardProps>=({id,title,cut,date,image})=>{
   return (
-    <a href={`/news/${id}`} className=" text-white flex flex-col sm:flex-row justify-center items-center  py-6 rounded-sm gap-7 hover:bg-[#013ca6] hover:bg-opacity-20 transition-all duration-100 group ease-in">
+    <a href={`/news/${id}`} className=" text-white flex flex-col sm:flex-row justify-center items-center  py-6 rounded-sm gap-7 hover:bg-[#fff212] hover:text-[#0a0a0a] transition-all duration-100 group ease-in">
       <div className="w-[95%] px-5 sm:w-3/5">
           <h1 className="sm:text-2xl text-sm w-full font-familjen font-bold mb-3">{title}</h1>
           <p className="opacity-80 overflow-clip sm:overflow-auto h-[100px] sm:h-auto  ">{cut}</p>
