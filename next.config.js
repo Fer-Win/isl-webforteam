@@ -6,7 +6,10 @@ const nextConfig = {
         {family:'Familjen Grotesk'}
       ]
     }
-  })
+  }),
+  images: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
