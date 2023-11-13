@@ -12,10 +12,10 @@ const page = ({params}:any) => {
           if(player.name == decodeURIComponent(params.id)){
             return (
              <main>
-              <div className="title text-[60px] font-familjen">Player Info</div>
-               <div className="flex h-[550px] my-10 mx-28" key={player.id}>
+              <div className="title text-[30px] sm:text-[60px] font-familjen">Player Info</div>
+               <div className="flex sm:flex-row flex-col h-auto sm:h-[550px] my-10 sm:mx-28" key={player.id}>
                 
-                <div className="w-[60%] border-2 border-r-0 border-stone-50 flex flex-col justify-evenly ">
+                <div className=" w-full sm:w-[60%] border-2 border-r-0 border-stone-50 flex flex-col justify-evenly ">
                     <div className="info-section">
                       <div>{player.name}</div>
                     </div>
