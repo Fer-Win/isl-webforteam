@@ -17,7 +17,7 @@ const Fans = () => {
       if (window.innerWidth <= 768) {
         setSlidesPerView(1);
       } else {
-        setSlidesPerView(3); 
+        setSlidesPerView(4); 
       }
     };
     updateSlidesPerView();

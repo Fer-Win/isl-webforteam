@@ -24,17 +24,16 @@ const Footer = () => {
              </div>
             </div>
           </div>
-          <div className="py-8 sm:py-0 sm:w-[30%]  h-full px-3  text-white text-lg font-light flex justify-around sm:justify-between">
+          <div className="py-8 sm:py-0 sm:w-[30%]  h-full px-3  text-white text-lg font-light flex justify-around sm:justify-between items-center">
               <div className="flex flex-col h-full justify-center gap-7">
               <Link href="/" passHref className="linker">Home</Link>
               <Link href="/team" passHref className="linker">Team</Link>
-            
               <Link href="/news" passHref className="linker">News</Link>
               <Link href="/fans" passHref className="linker">Fans</Link>
         
               </div>
               <div >
-                  <ul className="flex flex-col pt-8 px-3 gap-7 ">
+                  <ul className="flex flex-col h-full  px-3 gap-7 ">
                     <a href="https://www.facebook.com/keralablasters/" target="_blank" className="linker">Facebook</a>
                     <a href="https://www.instagram.com/keralablasters/?hl=en" target="_blank"className="linker">Instagram</a>
                     <a href="https://twitter.com/KeralaBlasters" target="_blank"className="linker">X</a>

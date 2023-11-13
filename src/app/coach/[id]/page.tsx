@@ -13,10 +13,10 @@ const page = ({params}:any) => {
           if(coach.name == decodeURIComponent(params.id)){
             return (
              <main>
-              <div className="title text-[60px] font-familjen" key={coach.id}>Coach Info</div>
-               <div className="flex h-[550px] my-10 mx-28" key={coach.id}>
+              <div className="title text-[30px] sm:text-[60px] ml-10 sm:ml-28  font-familjen" key={coach.id}>Coach Info</div>
+               <div className="flex sm:flex-row  h-auto sm:h-[550px] my-10 flex-col-reverse sm:mx-28" key={coach.id}>
                 
-                <div className="w-[60%] border-2 border-r-0 border-stone-50 flex flex-col justify-evenly ">
+                <div className="w-full sm:w-[60%] border-2 border-r-0 border-stone-50 flex flex-col justify-evenly ">
                     <div className="info-section">
                       <div>{coach.name}</div>
                     </div>
@@ -30,9 +30,9 @@ const page = ({params}:any) => {
                 </div>
   
   
-                  <div className="w-[40%] bg-[#013ca6] border-2 border-stone-50 overflow-hidden transition-all ease-in-out duration-500 hover:bg-[#fff212]  relative group " >
-                  <Image src="/kbfc_logo.svg" alt="" width={384} height={384} className="player-bg w-96 opacity-50 group-hover:scale-0 transition-all ease-in-out duration-300" />
-                  <Image src={coach.image} alt="" width={700} height={384} className="z-40 absolute object-cover bottom-0 mx-auto" />
+                  <div className="w-full sm:w-[40%] bg-[#013ca6] border-2 h-52 sm:h-auto border-stone-50 overflow-hidden transition-all ease-in-out duration-500 hover:bg-[#fff212]  relative group  " >
+                  <Image src="/kbfc_logo.svg" alt="" width={384} height={384} className="player-bg w-96 opacity-50 group-hover:scale-0 transition-all ease-in-out duration-300 pb-80 sm:pb-0" />
+                  <Image src={coach.image} alt="" width={700} height={384} className="z-40 absolute object-cover  mx-auto" />
                                    
                   </div>
                   
