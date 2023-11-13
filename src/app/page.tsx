@@ -15,7 +15,7 @@ export default function Home() {
   const [slidesPerView, setSlidesPerView] = useState(1);
 
   useEffect(() => {
-    const updateSlidesPerView = () => {
+    const updateSlidesPerView:any = () => {
       if (window.innerWidth <= 768) {
         setSlidesPerView(1);
       } else {
@@ -33,9 +33,7 @@ export default function Home() {
     <main className='relative'>
     
       <NavBar></NavBar>
-      {/* <div className="spinner-wrapper">
-      <div className="spinner"></div>
-    </div> */}
+      
     <div className='w-full h-[500px]  bg-blue-400 my-14'></div>
     <div className="title text-[60px] font-familjen">Gallery</div>
       <div className='text-white mb-20 mt-5 flex justify-center '>

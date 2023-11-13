@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body >{children}</body>
+      <body className='bg-[#0a0a0a]' >{children}</body>
       {/* <link rel="icon" href="/logo.svg" sizes="64x64" /> */}
     </html>
   )
