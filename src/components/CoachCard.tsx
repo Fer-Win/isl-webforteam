@@ -3,10 +3,11 @@ interface CoachCardProps {
   image: string;
   name: string;
   position: string;
+  nationality:string;
 }
 
 
-const CoachCard: React.FC<CoachCardProps> =({image,name,position})=>{
+const CoachCard: React.FC<CoachCardProps> =({image,name,position,nationality})=>{
   return (
     <a href={`/coach/${name}`} className='group font-familjen'>
        <div className='border-2 border-black  w-64 rounded-md '>

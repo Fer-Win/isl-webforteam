@@ -12,9 +12,9 @@ const page = ({params}:any) => {
         data.map((player)=>{
           if(player.name == decodeURIComponent(params.id)){
             return (
-             <main>
+             <main key={player.id}>
               <div className="title text-[30px] sm:text-[60px] ml-10 sm:ml-28 font-familjen">Player Info</div>
-               <div className="flex sm:flex-row  h-auto sm:h-[550px] my-10 flex-col-reverse sm:mx-28" key={player.id}>
+               <div className="flex sm:flex-row  h-auto sm:h-[550px] my-10 flex-col-reverse sm:mx-28" >
                 
                 <div className=" w-full sm:w-[60%] border-2 border-r-0 border-stone-50 flex flex-col justify-evenly ">
                     <div className="info-section">
