@@ -26,7 +26,7 @@ const NavList = () => {
 
 
       <div className="lg:hidden md:hidden xl:hidden px-4" onClick={() => setToggle(!toggle)}>
-        <RxHamburgerMenu size={30} className="text-black cursor-pointer" />
+        <RxHamburgerMenu color="white" size={30} className="text-black cursor-pointer" />
       </div>
 
 
@@ -35,7 +35,7 @@ const NavList = () => {
         className="fixed inset-0 bg-transparent z-50"
         onClick={closeToggle}
       >
-        <div className="sm:w-full w-[300px] h-[400px] absolute top-0 right-0 bg-slate-300 z-1000 font-familjen">
+        <div className="sm:w-full w-[300px] h-[400px] absolute top-0 right-0 bg-slate-300 z-1000 font-familjen rounded-sm">
           <div className="p-4 flex flex-col justify-around h-full text-3xl">
             <Link href="/" passHref className="block hey mb-2">Home</Link>
             <Link href="/team" passHref className="block hey mb-2">Team</Link>
