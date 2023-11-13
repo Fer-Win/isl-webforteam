@@ -31,8 +31,7 @@ const Fans = () => {
 
   return (
     <main><NavBar></NavBar>
-    <div>Hey There buddy</div>
-    {/* <DemoCarousel></DemoCarousel> */}
+ 
   
       <Swiper
       spaceBetween={20}

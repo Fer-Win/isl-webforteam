@@ -34,6 +34,9 @@
   .input{
     @apply w-[70%] mt-4 bg-[#0a0a0a] border-b border-b-white outline-none text-white pl-1 pb-2 font-extralight;
   }
+  .hey{
+    @apply  focus:bg-[#0a0a0a] focus:text-white border-b-white px-5 py-6
+  }
 }
 
 @layer base{
