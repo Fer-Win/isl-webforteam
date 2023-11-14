@@ -6,9 +6,9 @@ import { Carousel } from 'react-responsive-carousel';
  export default class DemoCarousel extends Component {
     render() {
         return (
-            <Carousel autoPlay={true}  dynamicHeight={false} infiniteLoop={true} showIndicators={false} showArrows={true} showStatus={true} showThumbs={false} swipeable={true}>
-                <div className='w-[full] h-[300px]'>
-                    <img src="https://s01.sgp1.cdn.digitaloceanspaces.com/article/144089-lgkkdqctzr-1594230223.jpg" height={300} />
+            <Carousel autoPlay={true}  dynamicHeight={false} infiniteLoop={true} showIndicators={true} showArrows={true} showStatus={true} showThumbs={false} swipeable={true}>
+                <div className='w-[full] '>
+                    <img src="https://s01.sgp1.cdn.digitaloceanspaces.com/article/144089-lgkkdqctzr-1594230223.jpg" className='object-cover' />
                     
                 </div>
                 <div>
@@ -16,7 +16,7 @@ import { Carousel } from 'react-responsive-carousel';
 
                 </div>
                 <div>
-                    <img src="https://www.eastcoastdaily.in/wp-content/uploads/2017/11/manja-pada.jpg" height={300}/>
+                    <img src="https://s01.sgp1.digitaloceanspaces.com/large/818631-43136-cfcxbtkobh-1476008658.jpg" height={300}/>
                    
                 </div>
                 <div>

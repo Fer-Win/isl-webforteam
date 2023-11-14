@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from "react";
+
 import NavList from "./NavList"
 import Image from "next/image"
 import Headroom from "react-headroom"
