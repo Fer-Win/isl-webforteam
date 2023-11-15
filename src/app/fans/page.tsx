@@ -41,7 +41,7 @@ const Fans = () => {
     <ParallaxText baseVelocity={-5} >#YENNUM YELLOW</ParallaxText>
       <ParallaxText baseVelocity={5}>#MANJAPPADA</ParallaxText>
       <div className='font-sans mt-1 text-white text-sm sm:text-2xl font-light ml-4 sm:ml-8 sm:mt-4'>
-      Thank you for being a part of the Kerala Blasters family. <br></br>Let's roar together, because <span className='text-[#fff212] font-roadRage'>#YennumYellow</span>
+      Thank you for being a part of the Kerala Blasters family. <br /> Let's roar together, because <span className='text-[#fff212] font-roadRage'>#YennumYellow</span>
       </div>
       <Footer></Footer>
       </main>
